@@ -4,6 +4,8 @@
 This repo is a fork from https://github.com/f/react-hooks-todo-app used as base for this Test
 ```
 
+[![Edit react-todo-test](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/josepernia8react-todo-test-io6bz/)
+
 ## Summary
 This is a simple React Todo App with 4 task to solve plus some bonus points.
 
