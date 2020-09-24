@@ -9,7 +9,7 @@ export default function TodoForm() {
   const [todo, setTodo] = useState("");
 
   function handleTodoChange(e) {
-    setTodo(e.target.value);
+    setTodo({ value: e.target.value });
   }
 
   function handleTodoAdd() {
@@ -28,7 +28,7 @@ export default function TodoForm() {
         <div className="input-group">
           <input
             className="form-control"
-            value={todo}
+            value={todo.value}
             autoFocus={true}
             placeholder="Enter new todo"
             onKeyUp={handleSubmitForm}

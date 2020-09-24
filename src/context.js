@@ -5,9 +5,9 @@ import React from "react";
 const Store = React.createContext({
   todos: [
     // Initial Data
-    "Buy milk",
-    "Some eggs",
-    "Go to work"
+    { value: "Do a commit", completed: false },
+    { value: "Git push", completed: false },
+    { value: "Take a break", completed: false },
   ]
 });
 
